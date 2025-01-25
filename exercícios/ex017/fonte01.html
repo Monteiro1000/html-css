@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+        body{
+            font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+            cm, mm, in, p, pt, pc
+
+            Medidas Relativas
+            em, ex, rem, VW, vh, %
+            16px geralmente = 1em
+            */
+            font-size: 1em;
+            /*lighter, normal, bold, bolder */
+        }
+        h1{
+            
+            /*shorthand font
+            - font-style -> font-weight -> font-size -> font-family
+
+            font-family:'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+             */
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+        h2{
+            font: bold 2em 'Work Sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit mollitia sapiente, in itaque quibusdam doloremque quasi vero pariatur excepturi totam expedita vel et eum hic quaerat saepe rem quidem? At. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque sunt fuga architecto soluta hic sed vel odit neque possimus amet nihil ipsa doloribus perspiciatis qui, dicta maxime voluptatem ab reiciendis!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab repudiandae maxime consequuntur, ad perferendis quod corrupti doloribus magni officiis debitis? Neque a deserunt quia magnam id laudantium consequuntur eligendi accusantium?</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt, atque dolorem reiciendis illum facilis iusto minima similique odit sequi non nulla inventore provident, odio ex quia? A nisi corporis soluta. lorem</p>
+    
+    
+</body>
+</html>
