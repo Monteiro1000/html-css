@@ -1,5 +1,12 @@
 @charset "UTF-8";
 
+/*
+Cores:
+ Lilás: #B75BEF
+ rosa clarinho:#EF3F8F
+ vermelho: #B20A0A
+ branco:#FFFFFF
+*/
 @font-face {
     font-family:Love ;
     src: url(fontes/love\ larry\ ttf.ttf) format(truetype);
@@ -8,13 +15,21 @@
     font-family: Blacksword;
     src: url(fontes/Blacksword.otf) format(opentype);
 }
+
+:root{
+    --cor1:#B75BEF;
+    --cor2:#EF3F8F;
+    --cor3:#B20A0A;
+    --cor4:#FFFFFF;
+}
+
 body {
-    background-color: white;
+    background-color: rgb(202, 163, 112);
     margin: 0px;
 }
 header{
- background-image: linear-gradient(to bottom, rgb(201, 6, 6), rgb(80, 3, 3));
-padding: 20px;
+ background-image: linear-gradient(to bottom, rgb(255, 123, 0), rgb(133, 73, 4));
+padding: 15px;
 }
 header h1{
     font-family: Love;
@@ -23,8 +38,6 @@ header h1{
    padding: 5px 20px;
    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.767);
    font-family: Love, Helvetica, sans-serif;
-   font-size: 30px;
-  border-radius: 20px;
   text-align: center;
   
 }
@@ -38,105 +51,94 @@ header >p{
     padding: 10px;
     text-indent: 10px;
 }
+nav{
+    background-color: rgb(80, 3, 3);
+    padding: 20px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.507);
+    text-align: center;
+}
+nav a{
+    color: rgba(224, 100, 100, 0.603);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 20px;
+    text-shadow: 3px 3px 8px black;
+}
+
+nav a:hover{
+    color: rgba(59, 3, 3, 0.664);
+    background-color: rgba(168, 25, 25, 0.664);
+    border-radius: 5px;
+    transition: 0.5s;
+
+}
+nav a:active{
+    color: green;
+}
+.amor{
+color: var(--cor1);
+}
+.love{
+color: var(--cor2);
+}
+.agapi{
+color: var(--cor3);
+}
+.愛{
+color: var(--cor4);
+}
 main{
-    background-color: #402424;
+    background-color: var(--cor4);
     padding: 40px;
-    border-radius: 0px 0px 20px 20px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.479);
     margin: auto;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-bottom: 20px;
+    
    
 }
-.h1 {
-    
-    font-weight: 200;
-   color: rgb(255, 255, 255);
-   background-color: rgba(255, 0, 0, 0.295);
-   text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.767);
+main >h2{
+    font-family: Love;
+   color: rgb(255, 187, 0);
+   font-weight: 200;
+   padding: 5px 20px;
+   text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.767);
    font-family: Love, Helvetica, sans-serif;
-   font-size: 30px;
-  border-radius: 20px;
   text-align: center;
-  
-}
-main img{
-   max-width: 50%;
-   max-height: 50%;
-    display: block;
-    margin: auto;
-    border-radius: 10px;
-    padding-top: 20px;
 }
 main p {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     text-align: justify;
     text-align: center;
-    background-color: #ee060628;
+    background-color: #ee9106;
     border-radius: 12px;
-    text-shadow: 10px 10px 10px black;
+    text-shadow: 5px 5px 10px black;
     padding: 10px;
     text-indent: 10px;
 }
-video{
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.623);
-        margin: auto
-    
-}
-iframe{ 
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.753);
-    border-radius: 10px;
-margin: auto;
-    width: 800px;
-}
-h2 {
-    background-color: crimson;
-    width: 300px;
-    text-align: center;
-    font-family: Blacksword, Helvetica, sans-serif;
+img{
+    display: block;
     margin: auto;
+    width: 60%;
     border-radius: 10px;
-    text-align: center;
+    box-shadow: 5px 5px 10px rgba(184, 135, 11, 0.589);
 }
-audio{
-    width: 200px;
-}
-
 .fonte{
     font-family: Blacksword;
     
-    
-}
-div > p {
-    display: none;
-}
-div:hover > p {
-    display: block;
     
 }
 .avisomouse{
     font: bold 1em italic;
     background-color: #D96A9E;
 }
-a{
-    color: red;
-    text-decoration: none;
-    font-weight: bold;
-}
 
-a:hover{
-    color: purple;
-}
-a:active{
-    color: green;
-}
 footer{
-background-color: black;
+background-color: white;
 }
 footer >p{
     text-align: center;
-    color: white;
+    color: rgb(0, 0, 0);
     margin: 0px;
     margin-top: 20px;
 }
