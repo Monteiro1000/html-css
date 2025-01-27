@@ -9,22 +9,44 @@
     src: url(fontes/Blacksword.otf) format(opentype);
 }
 body {
-    background-image: linear-gradient(to left, #F2C2CB, #D96A9E, #8C503A, #D98E73, #402424);
-    background-attachment: fixed;
+    background-color: white;
+    margin: 0px;
 }
-#principal{
-    display: inline;
+header{
+ background-image: linear-gradient(to bottom, rgb(201, 6, 6), rgb(80, 3, 3));
+padding: 20px;
+}
+header h1{
     font-family: Love;
    color: rgb(48, 0, 8);
    font-weight: 200;
-   background-color: rgba(255, 0, 0, 0.295);
    padding: 5px 20px;
-   text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.767);
+   text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.767);
    font-family: Love, Helvetica, sans-serif;
    font-size: 30px;
   border-radius: 20px;
   text-align: center;
   
+}
+header >p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: justify;
+    text-align: center;
+    border-radius: 12px;
+    text-shadow: 5px 5px 10px black;
+    padding: 10px;
+    text-indent: 10px;
+}
+main{
+    background-color: #402424;
+    padding: 40px;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.479);
+    margin: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+   
 }
 .h1 {
     
@@ -38,14 +60,15 @@ body {
   text-align: center;
   
 }
-img{
+main img{
+    width: 350px;
+    height: 600px;
     display: block;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.493);
     margin: auto;
     border-radius: 10px;
     padding-top: 20px;
 }
-p {
+main p {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     text-align: justify;
@@ -79,16 +102,7 @@ h2 {
 audio{
     width: 200px;
 }
-main{
-    background-color: #402424;
-    padding: 40px;
-    border-radius: 10px;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.479);
-    margin: 30px;
-    margin-left: 200px;
-    text-align: center;
-    width: 900px;
-}
+
 .fonte{
     font-family: Blacksword;
     
@@ -116,4 +130,13 @@ a:hover{
 }
 a:active{
     color: green;
+}
+footer{
+background-color: black;
+}
+footer >p{
+    text-align: center;
+    color: white;
+    margin: 0px;
+    margin-top: 20px;
 }
