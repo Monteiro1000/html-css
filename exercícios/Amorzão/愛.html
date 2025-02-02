@@ -5,7 +5,118 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>愛</title>
 </head>
-<body>
+<style>
+     @font-face {
+    font-family:Love ;
+    src: url(fontes/love\ larry\ ttf.ttf) format(truetype);
+}
+@font-face {
+    font-family: Blacksword;
+    src: url(fontes/Blacksword.otf) format(opentype);
+}
+body{
+    margin: 0px;
+}
+
+    :root{
+    --cor1:#B75BEF;
+    --cor2:#EF3F8F;
+    --cor3:#B20A0A;
+    --cor4:#FFFFFF;
+
+}
+header{
+    background-image: linear-gradient(to bottom, white, rgb(206, 206, 206));
+    padding: 20px;
     
+
+}
+header > h1{
+    text-align: center;
+    font-family: love, Arial, Helvetica, sans-serif;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.486);
+}
+nav{
+    background-color: rgb(206, 206, 206);
+    padding: 20px;
+}
+nav > a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgba(99, 98, 98, 0.815);
+    padding: 10px;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.486);
+}
+nav > a:hover{
+            background-color: #fffffffa;
+            border-radius: 7px;
+            
+        }
+        nav >a:visited{
+            color: var(--cor3);
+        }
+        nav > a:active{
+            color: black;
+        }
+        main{
+
+        }
+        main > h2{
+            font-family: love, Arial, Helvetica, sans-serif;
+            text-align: center;
+            text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.486);
+        }
+        main > p{
+            text-indent: 10px;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        video{
+            display: block;
+            width: 60%;
+            margin: auto;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.486);
+        }
+        footer{
+            background-color: black;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.486);
+            margin-top: 20px;
+        }
+        footer > p{
+            text-align: center;
+            color: var(--cor4);
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+
+</style>
+<body>
+    <header>
+        <h1> Iti, que gatonaa!</h1>
+    </header>
+    <nav>
+        <a href="amorzao.html" target="_self" rel="prev">Voltar</a>
+
+    </nav>
+    <main>
+        <h2>
+            Essa música eu dedico a você, meu amor.
+        </h2>
+        <p>
+            Essa música me faz lembrar o meu sentimento por ti, por isso é especial.
+        </p>
+        <p>
+            Então toma!
+        </p>
+        
+        <video controls>
+            <source src="midia/Lady Gaga, Bruno Mars - Die With A Smile (Official Music Video).mp4" type="video/mp4">
+
+        </video>
+    </video>
+    </main>
+    <footer>
+        <p>I love you!!</p>
+    </footer>
 </body>
 </html>

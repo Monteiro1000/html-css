@@ -4,8 +4,136 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agápi</title>
+    <style>
+        @font-face {
+    font-family:Love ;
+    src: url(fontes/love\ larry\ ttf.ttf) format(truetype);
+        }
+
+    @font-face {
+    font-family: Blacksword;
+    src: url(fontes/Blacksword.otf) format(opentype);
+    }
+    :root{
+    --cor1:#B75BEF;
+    --cor2:#EF3F8F;
+    --cor3:#B20A0A;
+    --cor4:#FFFFFF;
+
+}
+body{
+    background-color: var(--cor3);
+    margin: 0px;
+}
+header{
+    background-image: linear-gradient(to bottom, #B20A0A, #500202);
+    padding: 20px;
+}
+header > h1{
+    text-align: center;
+    font-family: love, Arial, Helvetica, sans-serif;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.486);
+}
+nav{
+            background-color: #500202;
+            padding: 10px;
+            
+        }
+        nav > a{
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: none;
+            font-weight: bold;
+            color: #ffffffa6;
+            padding: 10px;
+            text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.548);
+        }
+        nav > a:hover{
+            
+            background-color: #913b6259;
+            border-radius: 5px;
+           
+        }
+        main{
+            background-color: var(--cor4);
+            padding: 7px;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.486);
+            margin-bottom: 10px;
+        }
+        main > h2{
+            font-family: blacksword, Arial, Helvetica, sans-serif;
+            text-align: center;
+            margin: 0px;
+            text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.486);
+        }
+        main > p{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+            text-align: center;
+            text-indent: 10px;
+            text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.486);
+        }
+        img{
+            display: block;
+            width: 90%;
+            margin: auto;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.486);
+        }
+        p  a{
+            text-align: center;
+            text-decoration: none;
+            font-weight: bold;
+            color: #500202;
+            padding: 10px;
+        }
+        p > a:hover{
+            background-color: #4d1a1a59;
+            border-radius: 7px;
+            padding: 10px;
+        }
+        p >a:visited{
+            color: var(--cor3);
+        }
+        p > a:active{
+            color: var(--cor2);
+        }
+        footer{
+            background-color: var(--cor4);
+            margin-top: 10px;
+            text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.486);
+        }
+        footer > p{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            font-size: 15px;
+            margin: 0px;
+            text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.486);
+        }
+    </style>
 </head>
 <body>
+    <header>
+        <h1>
+            Eu te amo daqui até a lua!
+        </h1>
+
+    </header>
+    <nav>
+        <a href="amorzao.html" target="_self" rel="prev">Voltar</a>
+    </nav>
+    <main>
+        <h2>
+            Vídeo especial para a minha princesa!&#x1F496
+        </h2>
+       <p>
+        Você sabia quantos batimentos servem de combustível para ir até a lua? Veja esse vídeo e entenderá o porquê eu te amo daqui até a lua.
+       </p>
+       <p><a href="https://photos.app.goo.gl/oX29gUaJTcj4zgif7">Veja o vídeo, meu bem</a></p>
+
+    </main>
+    <img src="imagens/sepia-style-effect-with-moon-phase-night-sky.avif" alt="lua">
+    <footer>
+        <p>Seus olhos são tão lindos como a beleza da galáxia de andrômeda!</p>
+    </footer>
     
 </body>
 </html>
